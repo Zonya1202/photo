@@ -1,7 +1,11 @@
 #include <iostream>
+#include "sec.hpp"
 
 int main()
 {
-  std::cout << "тот, кто является владельцем данного репа - cool guy\n";
+  int num = 0;
+  std::cout << "enter 1 or 0\n";
+  std::cin >> num;
+  outPuting(num);
   return 0;
 }
